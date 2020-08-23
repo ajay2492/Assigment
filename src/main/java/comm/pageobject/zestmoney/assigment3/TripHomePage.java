@@ -32,9 +32,9 @@ public class TripHomePage extends TestBasePage {
     }
 
     public void verifySelection() {
-        staticWait(Constants.STATIC_WAIT_4);
-        getDesFromSuggestion("1").click();
         staticWait(Constants.STATIC_WAIT_2);
+        getDesFromSuggestion("1").click();
+        staticWait(Constants.STATIC_WAIT_5);
         Assert.assertTrue(HotelPage.getHotelHeader().getText().contains(LOCATION_TO_SEARCH));
         findByXpath("//div[@class='_3EhPLbeL']/div").click();
     }

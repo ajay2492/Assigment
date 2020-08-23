@@ -4,6 +4,4 @@ package comm.elementlocator;
 *  Author - Ajay Kushwaha */
 
 public class ConstantId {
-    /* Ids for home page Amazon */
-    public static final String SEARCH_BOX = "twotabsearchtextbox";
 }
